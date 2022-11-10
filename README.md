@@ -1,60 +1,67 @@
 <h1 align="center"><img src="web/src/assets/logo.svg" width="200"/></h1>
 
-
+<img src="web/src/assets/Capa.png" />
 
 ## 📝 Descrição
-Este projeto tem o objetivo de solucionar o problema de falta de criatividade dos desenvolvedores, com uma plataforma onde podemos encontrar vários desafios Front-end com o layout e arquivos já prontos. 
-
-Esse projeto foi feito em parceria com o <a href="https://github.com/PedroHercules">Pedro Hercules</a> ele desenvolveu o <a href="https://github.com/PedroHercules/backend-frontraining">Back-end</a>
+Este projeto foi desenvolvido durante o evento da Rocketseat, a ideia do projeto é criar um aplicativo de bolões, onde os usuários podem criar bolões com seus amigos e salvar suas apostas.
 
 ## 📚 Funcionalidades
-* <b>Cadastrar desafios</b>: Qualquer usuário pode cadastrar desafios na plataforma.
+* <b>Criar bolão</b>: Qualquer usuário pode criar um bolão, tanto no aplicativo quanto na web.
 
-* <b>Buscar desafios</b>: Buscar desafios através do título do desafio.
+* <b>Visualizar os bolões criados</b>: O usuário poderá ver os bolões que ele criou e os que ele participa.
 
-* <b>Enviar solução</b>: Os usuários podem escolher um desafio e enviar sua solução, divulgando assim seu trabalho.
+* <b>Buscar bolão</b>: Buscar bolão pelo código.
+
+* <b>Detalhes do bolão</b>: Os usuários podem escolher um bolão e visualizar os jogos desse bolão, e os palpites caso tenha, e criar um palpite caso ainda não tenha feito um palpite.
 
 ## 🔧 Tecnologias utilizadas
-* React;
+* NextJS;
+* React Native;
 * Node;
-* Javascript;
+* Prisma;
+* Typescript;
 * HTML;
-* CSS;
+* Tailwind CSS;
 
 ## 🚀 Rodando o projeto
 
 
 1. Clone o repositório
    ```sh
-   git clone https://github.com/marcospaulo12345/frontend-frontraining
+   https://github.com/marcospaulo12345/nlw-copa.git
    ```
-2. Install NPM packages
+2. Install NPM packages on server, web and mobile
    ```sh
    npm install
    ```
 
-2. Install NPM packages
+3. run aplication web
    ```sh
-   npm start
+   npm run dev
+   ```
+   
+4. run aplication mobile
+   ```sh
+   expo start
+   ```
+   
+3. run server
+   ```sh
+   prisma migrate dev --name init
+   ```
+   
+   ```sh
+   npx prisma db seed
+   ```
+   
+   ```sh
+   npm run dev
    ```
 
 ## 🔜 Implementação futura
-* Implementar a possibilidade de empresas criarem desafios privados.
-* Melhorar a interação entre os usuários.
+* Implementar um Ranking em cada bolão.
+* Implementar o login de usuário na versão web.
 
-## 🤝 Colaboradores
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/PedroHercules">
-        <img src="https://avatars.githubusercontent.com/u/38766686?v=4" width="100px;" alt="Foto do Pedro no GitHub"/><br>
-        <sub>
-          <b>Pedro Hercukes</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
 
 ## 🎯 Status do projeto
 
